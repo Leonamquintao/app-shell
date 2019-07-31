@@ -3,6 +3,8 @@ import { connect } from 'react-redux';
 
 import * as actions from './store/actions';
 
+import Messenger from './components/Messenger';
+
 class App extends Component {
 
   constructor(props) {
@@ -23,8 +25,7 @@ class App extends Component {
     const { mainState } = this.props;
     return (
       <div style={styles.wrapper}>
-       <h1>theme: {this.props.mainState.theme}</h1>
-
+        <Messenger />
       </div>
     );
   }
