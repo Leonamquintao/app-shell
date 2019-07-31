@@ -26,6 +26,7 @@ class App extends Component {
     return (
       <div style={styles.wrapper}>
         <Messenger />
+        <theme-selector messages={ JSON.stringify(mainState) } />
       </div>
     );
   }
@@ -53,6 +54,7 @@ const styles = {
   wrapper: {
     display: 'flex',
     flexDirection: 'row',
-    flexWrap: 'wrap'
+    flexWrap: 'wrap',
+    margin: 20
   }
 }
