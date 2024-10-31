@@ -11,7 +11,6 @@ class Messenger extends Component {
   constructor(props) {
     super(props);
     this.state = { title: 'App-shell', sender: 'Shell', message: '' };
-    //console.log('props ', this.props.mainState);
   };
 
   
