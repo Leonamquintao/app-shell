@@ -4,10 +4,6 @@ const initialState = {
 };
 
 export const mainReducer = (state = initialState, action) => {
-
-  // console.log('state ', state);
-  // console.log('payload t', action.payload);
-
   switch(action.type) {
     case 'RESET_STATE':
       return initialState;
