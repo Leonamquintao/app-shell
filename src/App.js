@@ -10,7 +10,6 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.fetchData = this.fetchData.bind(this);
-    console.log(this.props.mainState.theme)
   }
 
   componentDidMount() {
